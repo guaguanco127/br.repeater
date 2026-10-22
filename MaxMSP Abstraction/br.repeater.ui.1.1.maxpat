@@ -24,7 +24,7 @@
         "openrectmode": 0,
         "openinpresentation": 1,
         "devicewidth": 256.0,
-        "description": "br.repeater.ui.1.0 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
+        "description": "br.repeater.ui.1.1 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
         "boxes": [
             {
                 "box": {
@@ -222,7 +222,7 @@
                     "fontsize": 12.0,
                     "id": "obj-core",
                     "maxclass": "newobj",
-                    "text": "br.repeater.1.0",
+                    "text": "br.repeater.1.1",
                     "numinlets": 10,
                     "numoutlets": 3,
                     "outlettype": [
@@ -1421,7 +1421,7 @@
                     "fontsize": 12.0,
                     "id": "obj-signature",
                     "maxclass": "comment",
-                    "text": "br.repeater.ui.1.0 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
+                    "text": "br.repeater.ui.1.1 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [
@@ -1439,7 +1439,7 @@
                     "fontsize": 12.0,
                     "id": "obj-why",
                     "maxclass": "comment",
-                    "text": "[br.repeater.1.0] is the real object: the gen~ lives inside it. This file only adds the panel, keeps each control's value in an [f]/[i] and re-sends them all at load (deferlow), and reports changes on the State outlet as <name> <value>. The last outlet bangs on every grab (Repeat on, or Grab while repeating).",
+                    "text": "[br.repeater.1.1] is the real object: the gen~ lives inside it. This file only adds the panel, keeps each control's value in an [f]/[i] and re-sends them all at load (deferlow), and reports changes on the State outlet as <name> <value>. The last outlet bangs on every grab (Repeat on, or Grab while repeating).",
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [
@@ -1517,8 +1517,8 @@
                 "box": {
                     "id": "obj-panel",
                     "maxclass": "panel",
-                    "annotation": "br.repeater.ui.1.0 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
-                    "hint": "br.repeater.ui.1.0 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
+                    "annotation": "br.repeater.ui.1.1 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
+                    "hint": "br.repeater.ui.1.1 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
                     "background": 1,
                     "bgcolor": [
                         0.0,

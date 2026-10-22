@@ -1,12 +1,12 @@
 # Max/MSP Abstractions:  
-## br.repeater.1.0
+## br.repeater.1.1
 
 By Brian Riordan  
 guaguanco127 [at] gmail [dot] com  
 brianriordanmusic [at] gmail [dot] com  
 [https://www.brianriordanmusic.com/](https://www.brianriordanmusic.com/)
 
-Repository for br.repeater.1.0, with all related files, can be found here: [https://github.com/guaguanco127/br.repeater](https://github.com/guaguanco127/br.repeater)  
+Repository for br.repeater.1.1, with all related files, can be found here: [https://github.com/guaguanco127/br.repeater](https://github.com/guaguanco127/br.repeater)  
 Additional programs can be found here: [https://github.com/guaguanco127/br.max](https://github.com/guaguanco127/br.max)
 
 These files were created with Max 9.
@@ -42,7 +42,7 @@ A stereo repeater for Max/MSP, built in gen~. The input always passes through an
 
 **Mix and Mix Mode:** Mix sets the blend while repeating (1 = only the loop, 0.5 = loop and input, equal power). Mix Mode sets what you hear while NOT repeating: Thru = the input, Aux = silence, for an aux send. There is no On/Off on purpose: the recorders must always run, or there would be nothing to grab. While not repeating only the recording runs, which costs very little.
 
-**Two files:** br.repeater.1.0 is the plain object: the Float control inlets take signals as well as numbers, so an LFO can sweep Speed (or Size, or Position). br.repeater.ui.1.0 adds the panel for a [bpatcher], plus a State outlet.
+**Two files:** br.repeater.1.1 is the plain object: the Float control inlets take signals as well as numbers, so an LFO can sweep Speed (or Size, or Position). br.repeater.ui.1.1 adds the panel for a [bpatcher], plus a State outlet.
 
 ### Controls
 
@@ -72,11 +72,11 @@ By saving your logic in an abstraction, you can create modules that can be used 
 
 1. Make sure you have Max 9 installed in your computer. And, make sure you are using a Max patch that is inside of a folder.  
 
-2. Copy br.repeater.1.0.maxpat and br.repeater.ui.1.0.maxpat into the same folder as the Max patch you are using (the .ui file uses the plain object).
+2. Copy br.repeater.1.1.maxpat and br.repeater.ui.1.1.maxpat into the same folder as the Max patch you are using (the .ui file uses the plain object).
 
-3. For the version with dials, create a bpatcher object. Then, go inside of its inspector, select "choose" next to "Patcher File" and select br.repeater.ui.1.0.maxpat. Size the bpatcher to 256 x 78 to show all of the controls.
+3. For the version with dials, create a bpatcher object. Then, go inside of its inspector, select "choose" next to "Patcher File" and select br.repeater.ui.1.1.maxpat. Size the bpatcher to 256 x 78 to show all of the controls.
 
-4. For the plain object, create an object with its name (br.repeater.1.0, do not include brackets) and control it through its inlets (see below).
+4. For the plain object, create an object with its name (br.repeater.1.1, do not include brackets) and control it through its inlets (see below).
 
 ## <a name="Use"></a>How To Use
 
@@ -132,7 +132,7 @@ The last outlet of both files bangs on every grab: when Repeat turns on, and whe
 
 ## <a name="Example"></a>Example Patch
 
-Open _br.repeater.example.1.0.maxpat (keep it in the same folder as both abstraction files). Pick a source in the menu: drum loop, Anton (both ship with Max), a drone, or your mic. It starts Off. Both outputs start muted at -70 dB: turn on the audio, then raise one slider slowly.
+Open _br.repeater.example.1.1.maxpat (keep it in the same folder as both abstraction files). Pick a source in the menu: drum loop, Anton (both ship with Max), a drone, or your mic. It starts Off. Both outputs start muted at -70 dB: turn on the audio, then raise one slider slowly.
 
 - **A, the version with dials:** click a recipe (it sets Size, Speed, Position, Crossfade and Mix through A's inlets), then press Repeat: stutter, half-speed tape, backwards, chipmunk zip, ghost (loop and input), and back to the defaults.
 - **B, the plain object:** Repeat switches on and off every 2.5 s on 600 ms loops, and a slow sine sweeps Speed between -1.5 and 1.5 (through 0, so it stops and turns around).

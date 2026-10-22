@@ -1,13 +1,13 @@
 # Max/MSP Patches, Abstractions, Externals, RNBO, VSTs, and Ableton Max for Live
 
-## br.repeater.1.0
+## br.repeater.1.1
 
 By Brian Riordan  
 guaguanco127 [at] gmail [dot] com  
 brianriordanmusic [at] gmail [dot] com  
 [https://www.brianriordanmusic.com/](https://www.brianriordanmusic.com/)
 
-Repository for br.repeater.1.0, with all related files, can be found here: [https://github.com/guaguanco127/br.repeater](https://github.com/guaguanco127/br.repeater)  
+Repository for br.repeater.1.1, with all related files, can be found here: [https://github.com/guaguanco127/br.repeater](https://github.com/guaguanco127/br.repeater)  
 Additional programs can be found here: [https://github.com/guaguanco127/br.max](https://github.com/guaguanco127/br.max)
 
 These files were created with Max 9, or RNBO.
@@ -15,6 +15,7 @@ These files were created with Max 9, or RNBO.
 ## Links
 
 [About](#About)  
+[What's new in 1.1](#New11)  
 [Max/MSP Abstraction](https://github.com/guaguanco127/br.repeater/tree/main/MaxMSP%20Abstraction) To use as an abstraction within Max/MSP  
 [Max/MSP RNBO for External or VST](https://github.com/guaguanco127/br.repeater/tree/main/RNBO%20Patchers%20for%20External%20or%20VST) To build your own Max external, or a VST or AU audio plugin (needs RNBO)  
 [Ableton Max for Live Device](https://github.com/guaguanco127/br.repeater/tree/main/Ableton%20Max%20For%20Live) To use inside of Ableton Suite  
@@ -59,6 +60,10 @@ You can use it as an abstraction within Max/MSP or as a Max for Live device with
 
 **Mix Mode:** what you hear while NOT repeating. Thru (0) = the input passes; Aux (1) = silence, for use on an aux send. Default Thru.
 
+## <a name="New11"></a>What's new in 1.1
+
+- **Readable dials in the Max for Live device:** the dials' values and needles are now white, so they stand out on the black panel (with Live's default theme they were dark and hard to read). The abstraction, RNBO patch and sound are unchanged; every file now has the version 1.1.
+
 ## <a name="How"></a>How it works
 
 Each channel is written into two circular recorders (12.5 s each). Repeat marks the moment you pressed: the loop is the Size ms before it, read back by two read heads with linear interpolation. Positions are counted backwards from the press, which is why changing Size moves the start and not the end. At the loop point, a new Position, a grab or a Size jump, the idle head starts at the new spot (with a pre-roll before the loop start, or a post-roll after the end when playing backwards) and the heads crossfade. A grab during a running crossfade waits for it to finish but still ends the loop where you pressed. Not repeating, nothing is read; only the recording runs.
@@ -67,11 +72,11 @@ Each channel is written into two circular recorders (12.5 s each). Repeat marks 
 
 | File | What it is |
 |---|---|
-| br.repeater.1.0 | No UI. The plain object to patch with |
-| br.repeater.ui.1.0 | With Repeat, Grab and Thru/Aux buttons and dials for Size, Speed, Position, Crossfade and Mix, ready for a [bpatcher] (256 x 78) |
-| _br.repeater.example.1.0 | Example patch: open this first. Pick a source (drum loop, voice, a drone or your mic) |
-| br.repeater.rnbo.1.0 | RNBO patch, to export a Max external or a VST/AU plugin |
-| br.repeater.1.0.amxd | Max for Live audio effect |
+| br.repeater.1.1 | No UI. The plain object to patch with |
+| br.repeater.ui.1.1 | With Repeat, Grab and Thru/Aux buttons and dials for Size, Speed, Position, Crossfade and Mix, ready for a [bpatcher] (256 x 78) |
+| _br.repeater.example.1.1 | Example patch: open this first. Pick a source (drum loop, voice, a drone or your mic) |
+| br.repeater.rnbo.1.1 | RNBO patch, to export a Max external or a VST/AU plugin |
+| br.repeater.1.1.amxd | Max for Live audio effect |
 
 The UI version contains the plain version and has the same inlets. Its outlets are Left, Right, State and Grab; the plain object's are Left, Right and Grab, so when you swap one for the other, move the Grab cable. Open the UI version in patching mode for comments on how it is built.
 
