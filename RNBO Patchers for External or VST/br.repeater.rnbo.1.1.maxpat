@@ -565,8 +565,8 @@
                                             "rect": [
                                                 100.0,
                                                 100.0,
-                                                1100.0,
-                                                760.0
+                                                1307.2777777777778,
+                                                900.0
                                             ],
                                             "bglocked": 0,
                                             "openinpresentation": 0,
@@ -611,7 +611,7 @@
                                                         "patching_rect": [
                                                             20.0,
                                                             20.0,
-                                                            147.0,
+                                                            141.0,
                                                             22.0
                                                         ],
                                                         "text": "in 1 @comment audio L",
@@ -629,9 +629,9 @@
                                                             ""
                                                         ],
                                                         "patching_rect": [
-                                                            230.0,
+                                                            176.0,
                                                             20.0,
-                                                            147.0,
+                                                            143.0,
                                                             22.0
                                                         ],
                                                         "text": "in 2 @comment audio R",
@@ -649,14 +649,15 @@
                                                             ""
                                                         ],
                                                         "patching_rect": [
-                                                            440.0,
+                                                            334.0,
                                                             20.0,
-                                                            315.0,
-                                                            22.0
+                                                            200.0,
+                                                            35.0
                                                         ],
                                                         "text": "in 3 @comment repeat @default 0 @min 0 @max 1",
                                                         "fontname": "Arial",
-                                                        "fontsize": 12.0
+                                                        "fontsize": 12.0,
+                                                        "linecount": 2
                                                     }
                                                 },
                                                 {
@@ -669,14 +670,15 @@
                                                             ""
                                                         ],
                                                         "patching_rect": [
-                                                            650.0,
+                                                            549.0,
                                                             20.0,
-                                                            385.0,
-                                                            22.0
+                                                            200.0,
+                                                            35.0
                                                         ],
                                                         "text": "in 4 @comment grab count (any change = grab) @default 0",
                                                         "fontname": "Arial",
-                                                        "fontsize": 12.0
+                                                        "fontsize": 12.0,
+                                                        "linecount": 2
                                                     }
                                                 },
                                                 {
@@ -689,14 +691,15 @@
                                                             ""
                                                         ],
                                                         "patching_rect": [
-                                                            860.0,
+                                                            764.0,
                                                             20.0,
-                                                            378.0,
-                                                            22.0
+                                                            200.0,
+                                                            35.0
                                                         ],
                                                         "text": "in 5 @comment size ms @default 8000 @min 10 @max 10000",
                                                         "fontname": "Arial",
-                                                        "fontsize": 12.0
+                                                        "fontsize": 12.0,
+                                                        "linecount": 2
                                                     }
                                                 },
                                                 {
@@ -709,14 +712,15 @@
                                                             ""
                                                         ],
                                                         "patching_rect": [
+                                                            979.0,
                                                             20.0,
-                                                            50.0,
-                                                            315.0,
-                                                            22.0
+                                                            200.0,
+                                                            35.0
                                                         ],
                                                         "text": "in 6 @comment speed @default 1 @min -16 @max 16",
                                                         "fontname": "Arial",
-                                                        "fontsize": 12.0
+                                                        "fontsize": 12.0,
+                                                        "linecount": 2
                                                     }
                                                 },
                                                 {
@@ -729,14 +733,15 @@
                                                             ""
                                                         ],
                                                         "patching_rect": [
-                                                            230.0,
-                                                            50.0,
-                                                            308.0,
-                                                            22.0
+                                                            627.2777777777778,
+                                                            143.0,
+                                                            200.0,
+                                                            35.0
                                                         ],
                                                         "text": "in 7 @comment position (jump-to) @default 0 @min 0 @max 1",
                                                         "fontname": "Arial",
-                                                        "fontsize": 12.0
+                                                        "fontsize": 12.0,
+                                                        "linecount": 2
                                                     }
                                                 },
                                                 {
@@ -749,14 +754,15 @@
                                                             ""
                                                         ],
                                                         "patching_rect": [
-                                                            440.0,
-                                                            50.0,
-                                                            378.0,
-                                                            22.0
+                                                            842.2777777777778,
+                                                            143.0,
+                                                            200.0,
+                                                            35.0
                                                         ],
                                                         "text": "in 8 @comment crossfade ms @default 40 @min 5 @max 250",
                                                         "fontname": "Arial",
-                                                        "fontsize": 12.0
+                                                        "fontsize": 12.0,
+                                                        "linecount": 2
                                                     }
                                                 },
                                                 {
@@ -769,14 +775,15 @@
                                                             ""
                                                         ],
                                                         "patching_rect": [
-                                                            650.0,
-                                                            50.0,
-                                                            294.0,
-                                                            22.0
+                                                            1057.2777777777778,
+                                                            143.0,
+                                                            200.0,
+                                                            35.0
                                                         ],
                                                         "text": "in 9 @comment mix @default 1 @min 0 @max 1",
                                                         "fontname": "Arial",
-                                                        "fontsize": 12.0
+                                                        "fontsize": 12.0,
+                                                        "linecount": 2
                                                     }
                                                 },
                                                 {
@@ -789,14 +796,15 @@
                                                             ""
                                                         ],
                                                         "patching_rect": [
-                                                            860.0,
-                                                            50.0,
-                                                            336.0,
-                                                            22.0
+                                                            1051.0,
+                                                            242.0,
+                                                            200.0,
+                                                            35.0
                                                         ],
                                                         "text": "in 10 @comment mix mode @default 0 @min 0 @max 1",
                                                         "fontname": "Arial",
-                                                        "fontsize": 12.0
+                                                        "fontsize": 12.0,
+                                                        "linecount": 2
                                                     }
                                                 },
                                                 {
@@ -811,7 +819,7 @@
                                                         ],
                                                         "patching_rect": [
                                                             20.0,
-                                                            90.0,
+                                                            302.0,
                                                             1050.0,
                                                             610.0
                                                         ],
@@ -830,8 +838,8 @@
                                                         "outlettype": [],
                                                         "patching_rect": [
                                                             20.0,
-                                                            720.0,
-                                                            150.0,
+                                                            942.0,
+                                                            149.0,
                                                             22.0
                                                         ],
                                                         "text": "out 1 @comment audio L",
@@ -847,9 +855,9 @@
                                                         "numoutlets": 0,
                                                         "outlettype": [],
                                                         "patching_rect": [
-                                                            420.0,
-                                                            720.0,
-                                                            150.0,
+                                                            1051.0,
+                                                            942.0,
+                                                            151.0,
                                                             22.0
                                                         ],
                                                         "text": "out 2 @comment audio R",
@@ -880,6 +888,12 @@
                                                         "destination": [
                                                             "obj-11",
                                                             1
+                                                        ],
+                                                        "midpoints": [
+                                                            185.5,
+                                                            70.0,
+                                                            144.05555555555554,
+                                                            70.0
                                                         ]
                                                     }
                                                 },
@@ -892,6 +906,12 @@
                                                         "destination": [
                                                             "obj-11",
                                                             2
+                                                        ],
+                                                        "midpoints": [
+                                                            343.5,
+                                                            82.0,
+                                                            258.6111111111111,
+                                                            82.0
                                                         ]
                                                     }
                                                 },
@@ -904,6 +924,12 @@
                                                         "destination": [
                                                             "obj-11",
                                                             3
+                                                        ],
+                                                        "midpoints": [
+                                                            558.5,
+                                                            94.0,
+                                                            373.1666666666667,
+                                                            94.0
                                                         ]
                                                     }
                                                 },
@@ -916,6 +942,12 @@
                                                         "destination": [
                                                             "obj-11",
                                                             4
+                                                        ],
+                                                        "midpoints": [
+                                                            773.5,
+                                                            106.0,
+                                                            487.72222222222223,
+                                                            106.0
                                                         ]
                                                     }
                                                 },
@@ -928,6 +960,12 @@
                                                         "destination": [
                                                             "obj-11",
                                                             5
+                                                        ],
+                                                        "midpoints": [
+                                                            988.5,
+                                                            118.0,
+                                                            602.2777777777778,
+                                                            118.0
                                                         ]
                                                     }
                                                 },
@@ -940,6 +978,12 @@
                                                         "destination": [
                                                             "obj-11",
                                                             6
+                                                        ],
+                                                        "midpoints": [
+                                                            636.7777777777778,
+                                                            217.0,
+                                                            716.8333333333334,
+                                                            217.0
                                                         ]
                                                     }
                                                 },
@@ -952,6 +996,12 @@
                                                         "destination": [
                                                             "obj-11",
                                                             7
+                                                        ],
+                                                        "midpoints": [
+                                                            851.7777777777778,
+                                                            193.0,
+                                                            831.3888888888889,
+                                                            193.0
                                                         ]
                                                     }
                                                 },
@@ -964,6 +1014,12 @@
                                                         "destination": [
                                                             "obj-11",
                                                             8
+                                                        ],
+                                                        "midpoints": [
+                                                            1066.7777777777778,
+                                                            205.0,
+                                                            945.9444444444445,
+                                                            205.0
                                                         ]
                                                     }
                                                 },
