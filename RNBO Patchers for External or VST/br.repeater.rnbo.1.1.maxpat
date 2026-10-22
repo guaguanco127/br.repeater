@@ -564,9 +564,9 @@
                                             "classnamespace": "dsp.gen",
                                             "rect": [
                                                 100.0,
-                                                100.0,
-                                                1307.2777777777778,
-                                                900.0
+                                                87.0,
+                                                1307.0,
+                                                883.0
                                             ],
                                             "bglocked": 0,
                                             "openinpresentation": 0,
