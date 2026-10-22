@@ -15,7 +15,7 @@
             1500.0,
             680.0
         ],
-        "description": "_br.repeater.example.1.0 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
+        "description": "_br.repeater.example.1.1 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
         "boxes": [
             {
                 "box": {
@@ -67,7 +67,7 @@
                         566.0,
                         60.0
                     ],
-                    "text": "Two files, same DSP inside:\nbr.repeater.1.0 = core, no UI (in: L, R, Repeat, Grab, Size, Speed, Position, Crossfade, Mix, Mix Mode; out: L, R)\nbr.repeater.ui.1.0 = the same core with a panel and a State outlet"
+                    "text": "Two files, same DSP inside:\nbr.repeater.1.1 = core, no UI (in: L, R, Repeat, Grab, Size, Speed, Position, Crossfade, Mix, Mix Mode; out: L, R)\nbr.repeater.ui.1.1 = the same core with a panel and a State outlet"
                 }
             },
             {
@@ -192,7 +192,7 @@
                         520.0,
                         33.0
                     ],
-                    "text": "_br.repeater.example.1.0 -- Created by Brian Riordan, guaguanco127@gmail.com\nhttps://github.com/guaguanco127/"
+                    "text": "_br.repeater.example.1.1 -- Created by Brian Riordan, guaguanco127@gmail.com\nhttps://github.com/guaguanco127/"
                 }
             },
             {
@@ -1566,7 +1566,7 @@
                         160.0,
                         20.0
                     ],
-                    "text": "A: br.repeater.ui.1.0"
+                    "text": "A: br.repeater.ui.1.1"
                 }
             },
             {
@@ -1580,7 +1580,7 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "br.repeater.ui.1.0.maxpat",
+                    "name": "br.repeater.ui.1.1.maxpat",
                     "numinlets": 10,
                     "numoutlets": 4,
                     "offset": [
@@ -1808,7 +1808,7 @@
                                         520.0,
                                         61.0
                                     ],
-                                    "text": "br.repeater.ui.1.0 sends its state out of its LAST outlet as named messages, the moment a control changes: repeat, size, speed, position, crossfade, mix, mode. Route them by name, not by position. (Grab is an action, not a setting, so it is not in State.)"
+                                    "text": "br.repeater.ui.1.1 sends its state out of its LAST outlet as named messages, the moment a control changes: repeat, size, speed, position, crossfade, mix, mode. Route them by name, not by position. (Grab is an action, not a setting, so it is not in State.)"
                                 }
                             },
                             {
@@ -2311,7 +2311,7 @@
                         330.0,
                         22.0
                     ],
-                    "text": "br.repeater.1.0"
+                    "text": "br.repeater.1.1"
                 }
             },
             {
