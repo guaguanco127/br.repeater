@@ -20,6 +20,8 @@ These files were created with Max 9, or RNBO.
 [Max/MSP RNBO for External or VST](https://github.com/guaguanco127/br.repeater/tree/main/RNBO%20Patchers%20for%20External%20or%20VST) To build your own Max external, or a VST or AU audio plugin (needs RNBO)  
 [Ableton Max for Live Device](https://github.com/guaguanco127/br.repeater/tree/main/Ableton%20Max%20For%20Live) To use inside of Ableton Suite  
 
+**Max for Live note:** if Live's audio engine is off (no audio output device chosen, an orange bar at the bottom of Live), the device opens with its controls at 0 or their lowest value. Turn audio on and they jump to their default values by themselves.
+
 ## <a name="About"></a>About
 
 A stereo repeater for Max/MSP, built in gen~. The input always passes through and is always being recorded, so when you hear something worth keeping, press Repeat: the last Size ms (10 ms to 10 seconds) loop, ending at the moment you pressed. It is reactionary: you don't have to know in advance, you go back and grab what just happened. Grab again while it loops and the newest audio replaces the loop.
